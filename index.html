@@ -3,13 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+
     <title>Assignment 2</title>
 </head>
-<body>
+<body class="inter-font">
     <header>
-        <nav>
-            
+        <nav class="flex container color-primary nav-bg">
+            <h1>Tech<span class="color-rgb">Wave</span></h1>
+            <img class="hamburger-menu" src="./asset/hamburger-menu.png" alt="">
+            <ul class="flex">
+                <a href="">
+                    <li>About</li>
+                </a>
+                <a href="">
+                    <li>Episodes</li>
+                </a>
+                <a href="">
+                    <li>Host</li>
+                </a>
+            </ul>
+            <button class="btn-primary">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
         </nav>
+        <!-- hero section -->
+         <section class="container flex">
+            <div class="hero-img">
+                <img class="hero-img-1" src="./asset/hero-circle.png" alt="">
+                <img class="hero-img-2" src="./asset/microphone.png" alt="">
+                <img class="hero-img-3" src="./asset/new.png" alt="">
+            </div>
+            <div class="color-primary">
+                <h1>TechWave</h1>
+                <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                
+            </div>
+            <div class="flex hero-btn">
+                <button class="hero-btn-1 btn-primary"><i><img src="./asset/spotify.png" alt=""></i>Listen on Spotify</button>
+                <button class="hero-btn-2"><i><img src="./asset/message.png" alt=""></i>Subscribe</button>
+            </div>
+         </section>
     </header>
 </body>
 </html>
