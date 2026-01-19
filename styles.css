@@ -250,6 +250,8 @@ main .grid-container h2{
     padding: 24px;
     border-radius: 0px 0px 24px 24px;
     background: rgba(37, 13, 68, 1);
+    display: flex;
+    flex-direction: column;
 }
 .time{
     color: #00FF88;
@@ -275,8 +277,53 @@ main .grid-container h2{
     align-items: flex-start;
     gap: 16px;
 }
-
-
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icon-image{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid rgb(109, 89, 137);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-image:hover{
+    transform: scale(1.5);
+    z-index: 3;
+    transition: 0.5s;
+    background: #05b5ea;
+}
+footer section{
+    background-image: url(./asset/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.copy-right{
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.ft-icon{
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.ft-icon-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
 /* Responsive design */
 
 /* for small device */
