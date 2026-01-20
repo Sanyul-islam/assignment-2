@@ -481,6 +481,25 @@ footer section{
         .hamburger-menu{
         display: none;
     }
+    nav,
+    .about,
+    .choose,
+    .featured{
+        padding: 20px 50px;
+    }
+    main section ul{ 
+        padding: 20px 0px;
+    }
+    .grid-container,
+    .featured-item{
+       display: flex;
+       flex-direction: column;
+       text-align: start;
+    }
+    .featured{
+        gap: 60px;
+ }
+    
 }
 
 
