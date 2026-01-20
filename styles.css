@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 3px solid red;
 }
 /* share styles */
 
@@ -379,12 +378,19 @@ footer section{
     }
     
     header section{
+        background-image: url(./asset/hero-bg-sm.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         height: auto;
         gap: 0px;
         padding: 40px 20px;
         background-repeat: repeat;
     }
-    .hero-img, .hero-caption{
+    .hero-img{
+        padding: 20px 0px;
+    } 
+    .hero-caption{
         padding-bottom: 24px;
     }
     .hero-img-1{
@@ -394,7 +400,7 @@ footer section{
     .hero-img-2{
         height: 80px;
         width: 80px;
-        top: 25%;
+        top: 32%;
         left: 30.5%;
     }
     .hero-img-3{
@@ -407,14 +413,14 @@ footer section{
         flex-wrap: wrap;
     }
 
-    .hero-btn-1{
+    /* .hero-btn-1{
         width: 201px;
         height: 44px;
     }
     .hero-btn-2{
         width: 147px;
         height: 44px;
-     }
+     } */
 
      /* main section */
      .about,
@@ -453,12 +459,18 @@ footer section{
         gap: 16px;
     }
     /* footer section */
+    footer section{
+        background-image: url(./asset/footer-bg-sm.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .ft-icon{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .ft-icon{
-       padding: 0px 100px;
+       padding: 0px 50px;
         gap: 16px;
     }
     
